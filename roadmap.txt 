@@ -1,0 +1,1487 @@
+╔══════════════════════════════════════════════════════════════╗
+║        🚀 KRUTIK CYBER EXPERT — API PLATFORM               ║
+║                  COMPLETE MASTER ROADMAP                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣ PROJECT FOUNDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Project structure:
+
+krutik_api/
+│
+├── bot.py
+├── api.py
+├── database.py
+├── requirements.txt
+├── render.yaml
+├── .env
+│
+├── data/
+│   ├── demo01.json
+│   ├── demo02.json
+│   ├── demo03.json
+│   ├── demo04.json
+│   ├── demo05.json
+│   ├── demo06.json
+│   ├── demo07.json
+│   ├── demo08.json
+│   ├── demo09.json
+│   ├── demo10.json
+│   └── ... unlimited
+│
+└── logs/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣ BRANDING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Project Name:
+KRUTIK CYBER EXPERT
+
+Bot Name:
+KRUTIK CYBER EXPERT API
+
+Branding everywhere:
+
+• Telegram bot
+• API response
+• Admin panel
+• User panel
+• Documentation
+• Error messages
+• Notifications
+• Logs
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣ USER PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/start
+
+        ↓
+
+🏠 MAIN USER PANEL
+
+┌─────────────────────────────┐
+│ 🚀 KRUTIK CYBER EXPERT      │
+│                             │
+│ 👤 My Account               │
+│ 💎 API Plans                │
+│ 🔑 Request API Access       │
+│ 🗝 My API Keys              │
+│ 📊 My Usage                 │
+│ 📖 How To Use API           │
+│ 🌐 API Documentation        │
+│ 💬 Support                 │
+│ 👥 Official Group           │
+└─────────────────────────────┘
+
+
+USER FEATURES:
+
+✅ Profile
+✅ Telegram ID
+✅ Username
+✅ Registration date
+✅ Account status
+✅ API access status
+✅ API keys
+✅ Usage
+✅ Active plans
+✅ Expiry
+✅ Limits
+✅ Support
+✅ Documentation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4️⃣ USER COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/start
+→ Open user panel
+
+/help
+→ Show help
+
+/profile
+→ Show user profile
+
+/plans
+→ Show available API plans
+
+/request
+→ Request API access
+
+/mykeys
+→ Show user's API keys
+
+/usage
+→ Show API usage
+
+/status
+→ Show API status
+
+/howto
+→ Show API usage instructions
+
+/docs
+→ Open API documentation
+
+/support
+→ Show support information
+
+/group
+→ Open official group
+
+/cancel
+→ Cancel current operation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5️⃣ API PLAN SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Example plans:
+
+🥉 BASIC
+• Daily requests
+• Total requests
+• Rate limit
+• Expiry
+
+🥈 STANDARD
+• Higher daily limit
+• Higher total limit
+• Higher rate limit
+
+🥇 PREMIUM
+• Large daily limit
+• Large total limit
+• Higher rate limit
+
+💎 CUSTOM
+• Owner-defined limits
+
+
+Every plan contains:
+
+• Plan name
+• Description
+• Daily limit
+• Total limit
+• Rate/minute
+• Duration
+• Status
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6️⃣ API ACCESS REQUEST FLOW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+USER
+
+↓
+💎 API Plans
+
+↓
+Select plan
+
+↓
+📝 Request Access
+
+↓
+Request saved
+
+↓
+OWNER NOTIFICATION
+
+┌─────────────────────────────┐
+│ 📥 New API Access Request   │
+│                             │
+│ 👤 User                     │
+│ 🆔 Telegram ID              │
+│ 💎 Requested Plan           │
+│ 🕐 Request Time             │
+│                             │
+│ ✅ APPROVE                  │
+│ ❌ REJECT                   │
+└─────────────────────────────┘
+
+↓
+OWNER APPROVES
+
+↓
+API KEY GENERATED
+
+↓
+USER RECEIVES
+
+🔑 API Key
+💎 Plan
+📅 Start
+⏳ Expiry
+📊 Daily limit
+📊 Total limit
+⚡ Rate limit
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7️⃣ USER API KEY PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗝 MY API KEYS
+
+Each key shows:
+
+• Key ID
+• Key name
+• Plan
+• Status
+• Created
+• Started
+• Expiry
+• Daily usage
+• Daily limit
+• Total usage
+• Total limit
+• Rate limit
+
+
+Actions:
+
+🔎 View Details
+📊 Usage
+📖 How To Use
+❌ Request Revocation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8️⃣ API USAGE PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 MY USAGE
+
+Show:
+
+Today:
+████████░░ 80%
+
+Today Requests:
+80 / 100
+
+Total:
+850 / 1000
+
+Remaining:
+20 daily
+
+Status:
+🟢 Active
+
+Expiry:
+2026-XX-XX
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9️⃣ API BACKEND
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FastAPI
+
+Endpoints:
+
+GET /
+→ Service information
+
+GET /health
+→ Health check
+
+GET /api/search
+→ Search authorized synthetic/demo data
+
+GET /api/status
+→ API-key status
+
+GET /api/stats
+→ Public/basic API statistics
+
+GET /docs
+→ Swagger documentation
+
+GET /redoc
+→ ReDoc documentation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔟 API AUTHENTICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Support:
+
+Option 1:
+
+X-API-Key:
+YOUR_API_KEY
+
+
+Option 2:
+
+Authorization:
+Bearer YOUR_API_KEY
+
+
+Option 3:
+
+api_key=YOUR_API_KEY
+
+
+API checks:
+
+1. Key exists?
+2. User exists?
+3. User blocked?
+4. User API enabled?
+5. Global API enabled?
+6. Maintenance mode?
+7. Key active?
+8. Key expired?
+9. Daily limit?
+10. Total limit?
+11. Rate limit?
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣1️⃣ MULTI JSON DATA SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+No fixed 10-file limit.
+
+Example:
+
+data/
+├── data01.json
+├── data02.json
+├── data03.json
+├── data04.json
+├── data05.json
+├── data06.json
+├── data07.json
+├── data08.json
+├── data09.json
+├── data10.json
+├── data11.json
+├── data12.json
+├── data13.json
+└── ...
+
+API automatically scans:
+
+*.json
+
+
+Supported format:
+
+[
+    {
+        "id": "DEMO001",
+        "name": "Demo User",
+        "city": "Rajkot",
+        "category": "demo"
+    }
+]
+
+
+Also:
+
+{
+    "data": [
+        {
+            "id": "DEMO001",
+            "name": "Demo User"
+        }
+    ]
+}
+
+
+Search should work across all authorized synthetic/demo datasets.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣2️⃣ DATASET MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Admin should be able to see:
+
+📁 Total datasets
+📊 Total records
+📄 Dataset names
+🟢 Enabled datasets
+🔴 Disabled datasets
+🕐 Last updated
+📈 Dataset statistics
+
+
+Future commands:
+
+/datasets
+/datasetinfo
+/dataseton
+/datasetoff
+/reloaddata
+/datastats
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣3️⃣ ADMIN PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/admin
+
+        ↓
+
+👑 ADMIN CONTROL PANEL
+
+┌──────────────────────────────┐
+│ 📊 Dashboard                 │
+│ 👥 Users                     │
+│ 📥 Access Requests           │
+│ 🔑 API Keys                  │
+│ 💎 Plans                     │
+│ 📈 API Usage                 │
+│ 📁 Datasets                  │
+│ 🚫 Block / Unblock           │
+│ 🟢 API ON / OFF              │
+│ 🔧 Maintenance               │
+│ 🎨 Customize Panel           │
+│ 📢 Broadcast                 │
+│ 📖 API Docs                  │
+│ ⚙️ Settings                  │
+└──────────────────────────────┘
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣4️⃣ ADMIN DASHBOARD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 DASHBOARD
+
+Show:
+
+👥 Total Users
+🟢 Active Users
+🔴 Blocked Users
+
+📥 Pending Requests
+✅ Approved Requests
+❌ Rejected Requests
+
+🔑 Total API Keys
+🟢 Active Keys
+🔴 Revoked Keys
+⏳ Expired Keys
+
+📊 Total Requests
+📅 Today's Requests
+
+📁 Total Datasets
+📄 Total Records
+
+🌐 API Status
+🤖 Bot Status
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣5️⃣ ADMIN USER MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Commands:
+
+/users
+→ List users
+
+/user USER_ID
+→ User details
+
+/block USER_ID
+→ Block user
+
+/unblock USER_ID
+→ Unblock user
+
+/userapi USER_ID
+→ Enable user's API
+
+/userapi_off USER_ID
+→ Disable user's API
+
+/userkeys USER_ID
+→ Show user's keys
+
+/userusage USER_ID
+→ Show user's usage
+
+/userlogs USER_ID
+→ Show request logs
+
+
+User details:
+
+• Telegram ID
+• Username
+• Name
+• Join date
+• Last activity
+• Block status
+• API status
+• Active keys
+• Total requests
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣6️⃣ ACCESS REQUEST MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Commands:
+
+/pending
+→ Pending requests
+
+/approve REQUEST_ID
+→ Approve request
+
+/reject REQUEST_ID
+→ Reject request
+
+/requests
+→ Request statistics
+
+Flow:
+
+Pending
+ ↓
+Approve
+ ↓
+Generate key
+
+OR
+
+Pending
+ ↓
+Reject
+ ↓
+Notify user
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣7️⃣ API KEY MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Commands:
+
+/keys
+→ All keys
+
+/key KEY_ID
+→ Key details
+
+/createapi
+→ Interactive key creation
+
+/createapi2
+→ Advanced key creation
+
+/revoke KEY_ID
+→ Revoke key
+
+/deleteapi KEY_ID
+→ Delete key
+
+/renew KEY_ID
+→ Renew key
+
+/extend KEY_ID DAYS
+→ Extend expiry
+
+/resetusage KEY_ID
+→ Reset usage
+
+/keylogs KEY_ID
+→ Key request logs
+
+
+Admin can define:
+
+• User
+• Key name
+• Plan
+• Daily limit
+• Total limit
+• Rate limit
+• Start date
+• Expiry
+• Status
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣8️⃣ API CONTROL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/apion
+→ Enable API
+
+/apioff
+→ Disable API
+
+/globalon
+→ Enable global API
+
+/globaloff
+→ Disable global API
+
+/maintenance_on
+→ Maintenance mode ON
+
+/maintenance_off
+→ Maintenance mode OFF
+
+/status
+→ System status
+
+
+When API OFF:
+
+❌ Requests rejected
+
+When maintenance:
+
+🔧 Temporary maintenance response
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣9️⃣ RATE LIMITING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Every API key:
+
+⚡ Requests/minute
+
+Example:
+
+10 requests/minute
+
+If exceeded:
+
+HTTP 429
+
+{
+    "success": false,
+    "error": "rate_limit_reached"
+}
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣0️⃣ DAILY + TOTAL LIMIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Example:
+
+Daily:
+100
+
+Total:
+10,000
+
+
+When daily limit reached:
+
+429
+daily_limit_reached
+
+
+When total reached:
+
+429
+total_limit_reached
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣1️⃣ EXPIRY SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Key:
+
+🟢 Active
+⏳ Not Started
+🔴 Expired
+🚫 Revoked
+
+
+Automatic expiry check.
+
+User gets:
+
+⏳ API key expired.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣2️⃣ API LOGGING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Log:
+
+• User
+• API key ID
+• Query
+• Time
+• HTTP status
+• Success/failure
+• Error type
+
+
+Admin:
+
+/logs
+/keylogs KEY_ID
+/userlogs USER_ID
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣3️⃣ CUSTOM USER PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Owner can customize:
+
+WELCOME TEXT
+
+PLANS TEXT
+
+REQUEST TEXT
+
+USAGE TEXT
+
+HOW-TO TEXT
+
+DOCS TEXT
+
+SUPPORT TEXT
+
+
+Button labels:
+
+btn_plans
+btn_request
+btn_keys
+btn_usage
+btn_howto
+btn_docs
+btn_support
+btn_group
+
+
+Commands:
+
+/setwelcome TEXT
+
+/setplans TEXT
+
+/setrequest TEXT
+
+/setusage TEXT
+
+/sethowto TEXT
+
+/setdocs TEXT
+
+/setsupport TEXT
+
+/setbutton BUTTON TEXT
+
+/panelreset
+
+/getpanel
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣4️⃣ LINK SETTINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/setsupport URL
+→ Support link
+
+/setgroup URL
+→ Group link
+
+/setdocs URL
+→ Documentation link
+
+/getlinks
+→ Show configured links
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣5️⃣ PLAN MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Admin commands:
+
+/plans
+→ Show plans
+
+/addplan
+→ Create plan
+
+/editplan
+→ Edit plan
+
+/deleteplan
+→ Delete plan
+
+/planinfo PLAN
+→ Plan details
+
+Plans contain:
+
+Name
+Price label
+Description
+Daily limit
+Total limit
+Rate limit
+Duration
+Status
+
+
+Actual payment gateway is NOT required in the initial version.
+
+Approval remains owner-controlled.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣6️⃣ BROADCAST SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Admin:
+
+/broadcast MESSAGE
+
+Optional future:
+
+📢 Broadcast to all users
+
+Target:
+
+• All users
+• Active users
+• API users
+• Blocked users excluded
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣7️⃣ NOTIFICATION SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+User notifications:
+
+✅ Request approved
+❌ Request rejected
+🔑 API key created
+⏳ API expiring
+🔴 API expired
+🚫 API revoked
+🔧 Maintenance
+🟢 API restored
+
+
+Admin notifications:
+
+📥 New request
+⚠️ API errors
+📊 Daily summary
+🔑 Key activity
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣8️⃣ ERROR HANDLING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+API errors:
+
+400
+→ Invalid request
+
+401
+→ Invalid API key
+
+403
+→ Access denied
+
+404
+→ Not found
+
+429
+→ Rate/limit exceeded
+
+500
+→ Internal error
+
+503
+→ Maintenance
+
+
+Every error returns clean JSON.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣9️⃣ API DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Swagger:
+
+/docs
+
+ReDoc:
+
+/redoc
+
+
+Documentation should explain:
+
+• Authentication
+• Search endpoint
+• Status endpoint
+• Parameters
+• Limits
+• Error codes
+• Examples
+• Response format
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣0️⃣ SECURITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ API keys hashed in database
+✅ Admin-only commands
+✅ Owner ID protection
+✅ User block system
+✅ API access control
+✅ Rate limiting
+✅ Daily quota
+✅ Total quota
+✅ Expiry
+✅ Request logging
+✅ No secret keys in normal logs
+✅ Input validation
+✅ Query length limit
+
+
+Data search remains limited to authorized synthetic/demo data.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣1️⃣ RENDER DEPLOYMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GitHub
+   ↓
+Render
+   ↓
+Build
+   ↓
+Python
+   ↓
+bot.py
+   ├── Telegram Bot
+   └── FastAPI
+          ↓
+       JSON data
+
+
+Environment:
+
+BOT_TOKEN
+OWNER_CHAT_ID
+DATA_DIR
+DB_PATH
+PORT
+
+
+Health:
+
+/health
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣2️⃣ RENDER FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+requirements.txt
+
+python-telegram-bot
+fastapi
+uvicorn
+
+
+render.yaml
+
+Service:
+krutik-cyber-expert-api
+
+Runtime:
+Python
+
+Plan:
+Free
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣3️⃣ DATABASE TABLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+users
+│
+├── id
+├── chat_id
+├── username
+├── name
+├── blocked
+├── api_enabled
+├── created_at
+└── last_activity
+
+
+access_requests
+│
+├── id
+├── chat_id
+├── plan
+├── status
+├── created_at
+└── processed_at
+
+
+api_keys
+│
+├── id
+├── chat_id
+├── key_hash
+├── key_name
+├── plan
+├── status
+├── daily_limit
+├── total_limit
+├── rate_limit
+├── today_requests
+├── total_requests
+├── start_at
+├── expires_at
+└── last_used_at
+
+
+request_logs
+│
+├── id
+├── api_key_id
+├── chat_id
+├── query
+├── success
+├── status_code
+├── error
+└── created_at
+
+
+settings
+│
+├── key
+└── value
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣4️⃣ OWNER-ONLY COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/admin
+
+/users
+/user ID
+
+/block ID
+/unblock ID
+
+/pending
+/approve ID
+/reject ID
+
+/keys
+/key ID
+
+/createapi
+/createapi2
+
+/revoke ID
+/deleteapi ID
+/renew ID
+/extend ID DAYS
+/resetusage ID
+
+/plans
+/addplan
+/editplan
+/deleteplan
+
+/apion
+/apioff
+
+/globalon
+/globaloff
+
+/maintenance_on
+/maintenance_off
+
+/datasets
+/datasetinfo
+/reloaddata
+/datastats
+
+/logs
+/keylogs ID
+/userlogs ID
+
+/setwelcome TEXT
+/setplans TEXT
+/setrequest TEXT
+/setusage TEXT
+/sethowto TEXT
+/setdocs TEXT
+/setsupport TEXT
+/setbutton KEY TEXT
+/panelreset
+/getpanel
+
+/setsupport URL
+/setgroup URL
+/setdocs URL
+
+/broadcast MESSAGE
+
+/getlinks
+/status
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣5️⃣ USER COMMAND SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+/start
+/help
+/profile
+/plans
+/request
+/mykeys
+/usage
+/status
+/howto
+/docs
+/support
+/group
+/cancel
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣6️⃣ FUTURE WEB ADMIN PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Later:
+
+🌐 Web Dashboard
+
+Login
+ ↓
+Admin Dashboard
+
+Features:
+
+📊 Analytics
+👥 Users
+🔑 API Keys
+💎 Plans
+📁 Datasets
+📈 Requests
+📜 Logs
+⚙️ Settings
+🎨 Panel customization
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣7️⃣ FUTURE DATABASE UPGRADE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Development:
+
+SQLite
+
+Production:
+
+PostgreSQL
+
+
+Reason:
+
+Render Free local filesystem/SQLite is not guaranteed
+to persist across service replacement/redeploy.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣8️⃣ FUTURE API ANALYTICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📈 Requests today
+📈 Requests this week
+📈 Requests this month
+
+Top users
+Top keys
+Error rate
+Success rate
+Dataset usage
+API traffic
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣9️⃣ FINAL DEVELOPMENT ORDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 01
+Project structure
+
+        ↓
+
+STEP 02
+Database
+
+        ↓
+
+STEP 03
+Multi-JSON data loader
+
+        ↓
+
+STEP 04
+FastAPI
+
+        ↓
+
+STEP 05
+API authentication
+
+        ↓
+
+STEP 06
+API limits + rate limit
+
+        ↓
+
+STEP 07
+Telegram bot
+
+        ↓
+
+STEP 08
+User panel
+
+        ↓
+
+STEP 09
+Admin panel
+
+        ↓
+
+STEP 10
+Access request system
+
+        ↓
+
+STEP 11
+API key system
+
+        ↓
+
+STEP 12
+Plan system
+
+        ↓
+
+STEP 13
+Customization system
+
+        ↓
+
+STEP 14
+Logs + statistics
+
+        ↓
+
+STEP 15
+Security
+
+        ↓
+
+STEP 16
+Testing
+
+        ↓
+
+STEP 17
+Render deployment
+
+        ↓
+
+STEP 18
+Production database
+
+        ↓
+
+STEP 19
+Web admin panel
+
+        ↓
+
+STEP 20
+Advanced analytics
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4️⃣0️⃣ FINAL PROJECT RESULT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    👑 OWNER
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  ADMIN PANEL    │
+              └────────┬────────┘
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      USERS          PLANS          API KEYS
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                ACCESS CONTROL
+                       │
+                       ▼
+                 FASTAPI SERVER
+                       │
+                       ▼
+              ┌─────────────────┐
+              │  JSON DATASETS  │
+              │  10+ / UNLIMITED│
+              └─────────────────┘
+                       │
+                       ▼
+                  API RESPONSE
+                       │
+                       ▼
+                     USER
+
+
+╔══════════════════════════════════════════════════════════════╗
+║                 KRUTIK CYBER EXPERT                         ║
+║                                                            ║
+║ Telegram Bot + API + API Keys + Plans + Users + Admin      ║
+║ Multi-JSON Data + Limits + Logs + Security + Render        ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+
+
+USER:
+
+/start
+/help
+/profile
+/plans
+/request
+/mykeys
+/usage
+/status
+/howto
+/docs
+/support
+/group
+/cancel
+
+
+OWNER / ADMIN:
+
+/admin
+/users
+/user
+/block
+/unblock
+/userapi
+/userapi_off
+/userkeys
+/userusage
+/userlogs
+
+/pending
+/requests
+/approve
+/reject
+
+/keys
+/key
+/createapi
+/createapi2
+/revoke
+/deleteapi
+/renew
+/extend
+/resetusage
+/keylogs
+
+/plans
+/addplan
+/editplan
+/deleteplan
+/planinfo
+
+/apion
+/apioff
+/globalon
+/globaloff
+/maintenance_on
+/maintenance_off
+
+/datasets
+/datasetinfo
+/dataseton
+/datasetoff
+/reloaddata
+/datastats
+
+/logs
+/broadcast
+
+/setwelcome
+/setplans
+/setrequest
+/setusage
+/sethowto
+/setdocs
+/setsupport
+/setbutton
+/panelreset
+/getpanel
+
+/setgroup
+/getlinks
+
+/status
