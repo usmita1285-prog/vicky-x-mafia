@@ -1,0 +1,3 @@
+TEST YOUR API KEY 🗝️🔐 
+RAN  CODE IN TERMUX 
+Edit this code and edit your api bot token etc.
